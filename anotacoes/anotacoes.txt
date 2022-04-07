@@ -1,0 +1,145 @@
+CRIAR APLICATIVO EM REACT:
+
+npx create-react-app
+
+
+--------
+
+
+ABRIR PASTA NO VSCODE:
+
+cd até a pasta
+
+code .
+
+
+-------
+
+ÍCONES:
+
+https://react-icons.github.io/react-icons/icons?name=hi
+
+cd até a pasta
+
+npm install react-icons --save
+
+
+colar o código do ícone e da licensa de acordo com a doc
+
+--------
+
+VISÃO GERAL DOM E ESTILIZAÇÃO:
+
+https://pt-br.reactjs.org/docs/dom-elements.html
+
+
+------
+
+DEGRADÊ:
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient
+
+-------
+
+CSS USANDO OS TYPES:
+
+input[type=text], input[type=password]
+{
+    border:none;
+    border-bottom: 1px solid lightgray;
+}
+
+------
+
+REMOVER BORDA ON FOCUS NO CSS
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+------
+
+quebrar linha <br>
+
+------
+
+animações em css para react js
+
+https://reactjsexample.com/tag/animation/
+
+https://formidable.com/open-source/react-animations/
+
+https://animate.style/
+
+-----
+
+PLANEJAMENTO:
+
+https://whimsical.com/a
+
+------
+
+JORNADA DE APRENDIZADO:
+
+https://www.youtube.com/watch?v=Ab-kGzlCCWI
+
+
+- Aprenda React Hooks, ao menos useState e useEffect (facil)
+- Aprenda a codar em Typescript (intermediario, dependendo do seu conhecimento previo)
+- Aprenda a usar a usar o react-router-dom (facil)
+- Aprenda styled components e variant (intermediario, dependendo do seu conhecimento de CSS)
+- Aprenda a se conectar em alguma API (intermediario/avancado)
+- Aprenda a controlar login e permissoes baseado em um usuario logado (intermediario/avancado)
+
+
+
+-------
+
+ROTAS E NAVEGAÇÃO:
+
+https://www.youtube.com/watch?v=rRGYKT0XdCQ
+
+https://www.youtube.com/watch?v=Yey6nTwqUok
+
+
+-------
+
+API INSTA
+
+https://developers.facebook.com/docs/instagram
+
+---- 
+
+FIXAR NO TOPO
+
+.header {
+position: fixed;
+z-index: 999;
+top: 0;
+right: 0;
+height 70px;
+display: flex;
+justify-content: space-between;
+}
+
+----
+
+FORMATO DE IFS
+
+ const [blackHeader, setblackHeader ] = useState(false);
+ className={black ? 'menutopo' : ''}
+
+ ----
+
+ ESPAÇAMENTO ENTRE ELEMENTOS:
+
+ gap: 16px;
+ display: flex;
+
+ -----
+
+ COMO USAR O GIT|
+
+ https://docs.github.com/pt/get-started/quickstart/create-a-repo
+
+ -----

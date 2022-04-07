@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(#84239c, #f86dec);
+    border: none;
+    }
+    
+    .containerinput {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logo {
+        height: 80vh;
+
+    }
+    
+    
+    .input {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-radius: 10px;
+        margin-top: 10px;
+        border: none;
+        background-color: rgba(255, 225, 225, 0.2);
+        text-decoration: none;
+        box-shadow: 0.5px 0.5px 3px #f596fd;
+        color: rgb(242, 191, 255);
+        display: block;
+        flex-direction: column;
+    }
+    
+    .input::placeholder {
+        display: flex;
+        align-items: center;
+        color: #994792;
+    }
+    
+    .enviar {
+        padding: 10px;
+        padding-left: 100px;
+        padding-right: 100px;
+        border-radius: 10px;
+        margin-top: 10px;
+        border: none;
+        background-color: #fa96f2;
+        color: #994792;
+        justify-content: space-between;
+        text-decoration: none;
+    }
+
+    .enviar2:hover {
+      color:rgb(248, 236, 244);
+      }
+    
+    .links {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .linkdireto {
+      outline: none;
+      text-decoration: none;
+    }
+    
+    .links {
+        display: flex;
+        flex-direction: column;
+        color: rgb(253, 183, 230);
+        margin: px;
+        font-size: 14px;
+        align-items: center;
+        padding: 10px;
+    }
+    
+ 
+    
+    @media (prefers-reduced-motion: no-preference) {
+        .App-logo {
+          animation: Logoopacity infinite 1s linear;
+        }
+      }
+      
+    
+      @keyframes Logoopacity {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    
+    
+      
+    ;
