@@ -1,51 +1,40 @@
 
 .container2{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
   background: linear-gradient(#84239c, #f86dec);
   border: none;
+  height: 100%;
+  width: 100%;
+
 }
 
 textarea:focus, input:focus {
    outline: none;
   }
     
-    
-.image2 {
-  background: linear-gradient(#84239c, transparent);
-  background: linear-gradient(#84239c, #f86dec);
-  height: 198px;
-  width: 100vw;
+
+.container3 {
+        display: flex;
+        padding: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgba(255, 225, 225, 0.5);
+        box-shadow: 0.5px 0.5px 3px #f596fd;
+        color: rgb(242, 191, 255);
 }
-    
-    
-.containerInput2 {
-  position: fixed;
-  padding: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
+
+.input2 {
+  text-decoration: none;
+  text-decoration: none;
   border-radius: 10px;
   border: none;
-  background-color: rgba(248, 182, 182);
-  text-decoration: none;
-  box-shadow: 0.5px 0.5px 3px #f596fd;
-  color: rgb(242, 191, 255);
-  flex-direction: column;
-
+  text-align: center;
 }
     
-.input2::placeholder {
-  display: flex;
-  align-items: center;
-  color: #994792;
-}
-
   
   .logopeq {
   height: 40px;
-  margin-right: 120px;
 }
 
 
@@ -93,7 +82,6 @@ height: 90%;
 
 .menu2:hover {
 color:rgb(248, 236, 244);
-height: 100%;
 }
 
 
@@ -102,13 +90,12 @@ height: 100%;
  width: 100vw;
  height: 100vw;
 }
+
+.image2 {
+  background: linear-gradient(#84239c, transparent);
+  background: linear-gradient(#84239c, #f86dec);
+  height: 198px;
+  width: 100vw;
+  margin-top: 0;
+};
     
-.timelinewhite {
-  display: flex;
-  background-color: #fff;
-  width: 70vw;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid rgb(255, 223, 245);
-  border-radius: 10px;
-}

@@ -143,3 +143,15 @@ FORMATO DE IFS
  https://docs.github.com/pt/get-started/quickstart/create-a-repo
 
  -----
+
+COMENTAR VÁRIAS LINHAS
+
+SHIF + ALT + A
+
+
+--------
+
+SELECIONAR E EDITAR LINHAS:
+
+SEGURA ALT E CLICA NAS LINHAS 
+CTRL +L PARA SELECIONAR A LINHA TODA

@@ -8,9 +8,10 @@ import { ImProfile } from "react-icons/im";
 import { ImBubbles4 } from "react-icons/im";
 import { ImPlay } from "react-icons/im";
 import { Link } from "react-router-dom";
-import { IconContext } from "react-icons"
+import { IconContext } from "react-icons";
+import  Layout  from "./Layout/index";
 
-const Feed = ({black}) => {
+const Feed = () => {
     return (
 
 <div className="container2">
@@ -34,7 +35,6 @@ const Feed = ({black}) => {
                 <Link to="feed" className="menu2"> <ImNewspaper/> </Link>
                 <Link to="feed" className="menu2"> <ImBubbles4/>  </Link>
                 <Link to="feed" className="menu2"> <ImPlay/>  </Link>
-         
               </IconContext.Provider>
 
               <Link to="feed" >
@@ -45,25 +45,26 @@ const Feed = ({black}) => {
 
 </header>
 
-<     div className="containerinput2">
+      <div className="image2">
+        <img alt="Mulher e logo" src={require('./topground.png')} />
+      </div>
+
+      <div className="container3">
         <ImImages className="imageLoading"/>  
         <ImCamera className="imageLoading"/> 
         <input className="input2" placeholder="Publique suas aulas!"/>
       <div/>
 
+    
 
-  <div className="image2">
-    <img alt="Mulher e logo" src={require('./topground.png')} />
+
   </div>
 
-
-
-    <div className="timeline2">
-        <div className="timelinewhite"> Olá Mundo </div>
-    </div>
-  </div>
+  <Layout/>
 
 </div>
+
+
 
     );
 
