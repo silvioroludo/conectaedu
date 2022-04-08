@@ -1,4 +1,5 @@
 .grid-container {
+padding-top: 10px;
 display: grid;
 grid-template-areas: "firstColum secondColum";
 grid-template-columns: 614px 293px;

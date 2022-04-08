@@ -1,6 +1,6 @@
 import React from "react";
 import { GoKey } from "react-icons/go";
-import './styles.css'
+import './Login.css'
 import { Link } from "react-router-dom";
 
 const Login = () => {

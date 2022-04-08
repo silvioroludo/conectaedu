@@ -1,5 +1,5 @@
 import React from "react";
-import './styles.css';
+import './Feed.css';
 import { ImImages } from "react-icons/im";
 import { ImCamera } from "react-icons/im";
 import { ImHome } from "react-icons/im";
@@ -27,7 +27,7 @@ const Feed = () => {
 
   <div className="menu2">
       
-      <IconContext.Provider value ={{size:'30px'}}>
+      <IconContext.Provider value ={{size:'25px'}}>
         <Link to="feed" className="menu2"> <ImHome />  </Link>
         <Link to="feed" className="menu2"> <ImProfile/>  </Link>
         <Link to="feed" className="menu2"> <ImNewspaper/> </Link>
@@ -47,12 +47,10 @@ const Feed = () => {
   <div className="image2">
     <img alt="" src={require('../../images/topground.png')} />
   </div>
-
-
     <div className="publicar">
       
       <div className="imageLoading">
-        <IconContext.Provider value ={{size:'20px'}}>
+        <IconContext.Provider value ={{size:'25px'}}>
           <Link to="feed" className="imageLoading1" ><ImCamera className="imageLoading1"/></Link> 
           <Link to="feed" className="imageLoading2"><ImImages className="imageLoading2"/></Link>
         </IconContext.Provider>
