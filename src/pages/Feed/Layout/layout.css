@@ -1,32 +1,21 @@
-.maingrid {
-      display: grid;
-      grid-template-areas: "firstColum secondColum";
-      grid-template-columns: 614px 293px;
-      grid-gap: 50px;
-      max-width: 957px;
-      margin: 0 auto;
+.grid-container {
+display: grid;
+grid-template-areas: "firstColum secondColum";
+grid-template-columns: 614px 293px;
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+gap: 20px;
+background-color: rgb(241, 241, 241);
+text-align: center;
 }
 
-.feedFinal {
-    background: #fff;
-    border: 2px solid rgb(255, 223, 245);
-    border-radius: 10px;
-    background:rgb(255, 223, 245);
-    width: 100%;
- /*    justify-content: center;
-    width: 50%;
-    margin-bottom: 100vh; */
+/* .first-column {
+
 }
 
-.noticias {
-    background: #fff;
-    border: 2px solid rgb(255, 223, 245);
-    border-radius: 10px;
-    background:rgb(255, 223, 245);
-    width: 100%;
- /*    justify-content: center;
-    width: 50%;
-    margin-bottom: 100vh; */
-}
+.second-column {
 
 
+} */

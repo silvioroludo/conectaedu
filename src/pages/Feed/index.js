@@ -14,54 +14,57 @@ import  Layout  from "./Layout/index";
 const Feed = () => {
     return (
 
+
 <div className="container2">
 
-
-
 <header className="menutopo">
-         
 
-          <div>
-          <Link to="/"><img className="logopeq"
-          alt="" src={require('./logopeq.png')} /></Link>
-          </div> 
+  <div className="logopeq2">
+      <Link to="/"><img className="logopeq"
+     alt="" src={require('../../images/logopeq.png')} /></Link>
+  </div> 
 
-  
 
-        <div className="menu2">
-              <IconContext.Provider value ={{size:'30px'}}>
-                <Link to="feed" className="menu2"> <ImHome />  </Link>
-                <Link to="feed" className="menu2"> <ImProfile/>  </Link>
-                <Link to="feed" className="menu2"> <ImNewspaper/> </Link>
-                <Link to="feed" className="menu2"> <ImBubbles4/>  </Link>
-                <Link to="feed" className="menu2"> <ImPlay/>  </Link>
-              </IconContext.Provider>
+  <div className="menu2">
+      
+      <IconContext.Provider value ={{size:'30px'}}>
+        <Link to="feed" className="menu2"> <ImHome />  </Link>
+        <Link to="feed" className="menu2"> <ImProfile/>  </Link>
+        <Link to="feed" className="menu2"> <ImNewspaper/> </Link>
+        <Link to="feed" className="menu2"> <ImBubbles4/>  </Link>
+        <Link to="feed" className="menu2"> <ImPlay/>  </Link>
+      </IconContext.Provider>
 
-              <Link to="feed" >
-              <img className="perfil" alt="" src={require('./logodesign2.jpeg')} />
-              </Link>
-        </div>
+      <Link to="feed" >
+      <img className="perfil" alt="" src={require('../../images/logodesign2.jpeg')} />
+      </Link>
+          
+  </div>
 
 
 </header>
 
-      <div className="image2">
-        <img alt="Mulher e logo" src={require('./topground.png')} />
-      </div>
-
-      <div className="container3">
-        <ImImages className="imageLoading"/>  
-        <ImCamera className="imageLoading"/> 
-        <input className="input2" placeholder="Publique suas aulas!"/>
-      <div/>
-
-    
-
-
+  <div className="image2">
+    <img alt="" src={require('../../images/topground.png')} />
   </div>
 
-  <Layout/>
 
+    <div className="publicar">
+      
+      <div className="imageLoading">
+        <IconContext.Provider value ={{size:'20px'}}>
+          <Link to="feed" className="imageLoading1" ><ImCamera className="imageLoading1"/></Link> 
+          <Link to="feed" className="imageLoading2"><ImImages className="imageLoading2"/></Link>
+        </IconContext.Provider>
+      </div> 
+
+      <div className="inputImage">
+        <input className="input2" placeholder="Compartilhe conhecimento!"/>
+      <div/>
+    </div>
+
+  </div>
+  <Layout/>
 </div>
 
 

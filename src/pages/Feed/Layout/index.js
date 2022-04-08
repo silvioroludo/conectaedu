@@ -9,20 +9,14 @@ function Layout () {
     return (
 <>
 
+<div className="grid-container" >
 
-
-<div className="maingrid">
-
-    <div className="first-column" style={{gridArea: "firstColumn"}}>
-       <div className="feedFinal">
-           {<TimeLine/>}
-        </div>
+    <div className="first-column"  style={{gridArea: "firstColumn"}} >
+    {<TimeLine/>}
      </div>
 
-     <div className="second-column" style={{gridArea: "secondColumn"}}>
-        <div className="noticias">
-            {<Noticias/>}
-        </div>
+     <div className="second-column"  style={{gridArea: "secondColumn"}} >
+     {<Noticias/>}
      </div> 
 
 </div>
@@ -31,6 +25,5 @@ function Layout () {
     );
 
 };
-
 
 export default Layout;

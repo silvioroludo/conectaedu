@@ -1,61 +1,89 @@
 
-.container2{
-  background: linear-gradient(#84239c, #f86dec);
-  border: none;
-  height: 100%;
-  width: 100%;
-
+.container2 {
+background: linear-gradient(#84239c, #f86dec);
+border: none;
+height: 198px;
+width: 100%;
 }
 
 textarea:focus, input:focus {
-   outline: none;
-  }
-    
+outline: none;
+}
 
-.container3 {
-        display: flex;
-        padding: 5px;
-        padding-left: 30px;
-        padding-right: 30px;
-        border-radius: 10px;
-        border: none;
-        background-color: rgba(255, 225, 225, 0.5);
-        box-shadow: 0.5px 0.5px 3px #f596fd;
-        color: rgb(242, 191, 255);
+.menutopo {
+position: fixed;
+top: 0;
+display: flex;
+align-items: center;
+margin-top:-20;
+height:55px;
+flex-direction: row;
+justify-content: space-between;
+width: 100%;
+background:transparent;
+}
+
+.publicar {
+display: flex;
+flex-direction: row;
+margin-top: -80px;
+text-align: center;
+justify-content: center;
+padding: 30px 35px 5px 5px;
+border-radius: 10px;
+color: #fff;
+width: 100vw;
+text-decoration: none;
+border-radius: 30px;
+text-align: center;
+opacity: 100%;
+gap: 20px;
+}
+
+.input2:hover {
+opacity: 100%;
+box-shadow: 1px 1px 4px #fdeaff;
 }
 
 .input2 {
-  text-decoration: none;
-  text-decoration: none;
-  border-radius: 10px;
-  border: none;
-  text-align: center;
-}
-    
-  
-  .logopeq {
-  height: 40px;
+box-shadow: 0.5px 0.5px 3px #fdeaff;
+border:none;
+padding: 15px 80px;
+text-decoration: none;
+border-radius: 20px;
+text-align: center;
+opacity: 80%;
+font-weight: 400;
 }
 
-
-  .menutopo {
-    position: fixed;
-    top: 0;
-    display: flex;
-    align-items: center;
-    margin-top:-20;
-    height:55px;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    background:transparent;
-  }
+.imageLoading {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  opacity: 70%;
+  };
 
 
-  .menutopo {
-    background-color:#84239c;
-  }
+.imageLoading:hover {
+  opacity: 100%;
+ };
 
+
+.input2::placeholder {
+color: white;
+} 
+
+.logopeq {
+height: 40px;
+width: 100%;
+}
+.logopeq:hover {
+height: 42px;
+}
+
+.menutopo {
+background-color:#84239c;
+}
 
 .menu2 {
 flex-direction: row;
@@ -68,34 +96,33 @@ height: 90%;
 }
 
 .perfil {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  opacity: 90%;
+width: 35px;
+height: 35px;
+border-radius: 50%;
+opacity: 90%;
 }
 
 .perfil:hover {
-  width: 37px;
-  height: 37px;
-  opacity: 100%;
+width: 37px;
+height: 37px;
+opacity: 100%;
   }
 
 .menu2:hover {
 color:rgb(248, 236, 244);
 }
 
-
 .timeline2 {
- background-color: rgb(248, 236, 244);
- width: 100vw;
- height: 100vw;
+background-color: rgb(248, 236, 244);
+width: 100vw;
+height: 100vw;
 }
 
 .image2 {
-  background: linear-gradient(#84239c, transparent);
-  background: linear-gradient(#84239c, #f86dec);
-  height: 198px;
-  width: 100vw;
-  margin-top: 0;
+background: linear-gradient(#84239c, transparent);
+background: linear-gradient(#84239c, #f86dec);
+height: 198px;
+width: 100vw;
+margin-top: 0;
 };
     

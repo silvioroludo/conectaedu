@@ -155,3 +155,57 @@ SELECIONAR E EDITAR LINHAS:
 
 SEGURA ALT E CLICA NAS LINHAS 
 CTRL +L PARA SELECIONAR A LINHA TODA
+
+
+-------
+
+GRID COLUMNS:
+
+/* valores padrão */
+grid-template-columns: none;
+
+/* exemplos de <track-list> */
+grid-template-columns: 100px 1fr;
+grid-template-columns: [linename] 100px;
+grid-template-columns: [linename1] 100px [linename2 linename3];
+grid-template-columns: minmax(100px, 1fr);
+grid-template-columns: fit-content(40%);
+grid-template-columns: repeat(3, 200px);
+
+/* exemplos de <auto-track-list> */
+grid-template-columns: 200px repeat(auto-fill, 100px) 300px;
+grid-template-columns: minmax(100px, max-content)
+                       repeat(auto-fill, 200px) 20%;
+grid-template-columns: [linename1] 100px [linename2]
+                       repeat(auto-fit, [linename3 linename4] 300px)
+                       100px;
+grid-template-columns: [linename1 linename2] 100px
+                       repeat(auto-fit, [linename1] 300px) [linename3];
+
+/* definições de herança */
+grid-template-columns: inherit;
+grid-template-columns: initial;
+grid-template-columns: unset
+
+
+--------
+
+FLEX BOX 
+
+https://www.youtube.com/watch?v=dUkkOdhyO1w
+
+-------
+
+alignitems:
+
+flex-end alinha no final
+flex-start alinha no começo
+
+--------
+
+GRID SHIT AGAIN:
+
+https://www.w3schools.com/css/css_grid.asp
+
+
+------

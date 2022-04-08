@@ -1,12 +1,12 @@
 import React from "react";
-import "./Noticias.css"
+import "./TimeLine.css"
 
 
-function Noticias () {
+function TimeLine () {
 return (
 <>
-<div className="Noticias2">
-    Noticias
+<div className="TimeLine">
+    TimeLine
 </div>
 </>
 
@@ -15,4 +15,4 @@ return (
 
 };
 
-export default Noticias;
+export default TimeLine;
