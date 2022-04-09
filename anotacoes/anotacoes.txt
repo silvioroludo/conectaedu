@@ -209,3 +209,17 @@ https://www.w3schools.com/css/css_grid.asp
 
 
 ------
+
+TRANSIÇÕES LINEARES:
+
+transition-property
+transition-duration
+transition-timing-function: linear, ease, ease-in, ease-out e ease-in-out;
+transition-delay
+
+https://tableless.com.br/transition-e-animation/
+
+---------
+
+
+

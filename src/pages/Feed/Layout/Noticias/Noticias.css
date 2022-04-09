@@ -1,8 +1,47 @@
 .Noticias {
-    background: rgb(255, 255, 255);
-    width: 250px;
-    height: 100vh;
-    border-radius: 20px;
-    border: 1px solid #e8ddeb;
-    padding: 10px;
+position: fixed;
+background: rgb(255, 255, 255);
+width: 250px;
+height: 700px;
+border-radius: 20px;
+border: 1px solid #e8ddeb;
+padding-top: 10px;
+}
+
+.newsData {
+margin-top: 16px;
+margin-bottom: -50px;
+}
+
+.newsPicture {
+width: 100%;
+object-fit: cover;
+border-radius: 20px;
+height: 150px;
+background-color: black;
+opacity: 70%;
+}
+
+.newsPicture2 {
+opacity: 70%;
+}
+
+.newsPicture:hover {
+opacity: 100%;
+cursor: pointer;
+font-weight: bold;
+}
+    
+.newsText {
+/* background-color:#000000; */
+}
+
+.newsLetter {
+color: #e8ddeb;
+margin-top: -25px;
+font-weight: bold;
+}
+
+.newsLetter:hover {
+font-weight: bold;
 }

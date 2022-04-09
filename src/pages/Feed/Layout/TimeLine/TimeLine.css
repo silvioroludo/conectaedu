@@ -4,17 +4,19 @@ width: 617px;
 height: 100vh;
 border-radius: 20px;
 border: 1px solid #e8ddeb;
-padding: 10px;
+padding: 10px 0px 10px 0px;
 }
 
 .containerPost {
-background-color: #ffffff
-};
+background-color: #fff;
+width: 100%;
+}
 
 .userData {
 display: flex;
+flex-direction: row;
 justify-content: space-between;
-margin: 5px 5px 10px 10px;
+margin: 5px 20px 10px 10px;
 }
 
 .infosPost {
@@ -38,9 +40,7 @@ font-weight: bold;
 
 .postConfig {
 display: flex;
-align-items: center;
 }
-
 
 .postPicture img {
 width: 100%;
@@ -64,5 +64,5 @@ gap: 16px;
 }
 
 .engagementIcons2 {
-    
+
 };

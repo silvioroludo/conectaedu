@@ -13,6 +13,7 @@ return (
 <div className="TimeLine">
     
     <div className="containerPost">
+    <IconContext.Provider value ={{size:'25px'}}>
         <div className="userData">
             <div className="infosPost">
                 <img className="profilePicture" 
@@ -23,6 +24,7 @@ return (
                 <FiMoreHorizontal/>
             </div>
         </div>
+        </IconContext.Provider>
 
         <div className="postPicture">
 

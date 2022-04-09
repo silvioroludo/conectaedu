@@ -17,49 +17,46 @@ const Feed = () => {
 
 <div className="container2">
 
-<header className="menutopo">
+    <header className="menutopo">
 
-  <div className="logopeq2">
-      <Link to="/"><img className="logopeq"
-     alt="" src={require('../../images/logopeq.png')} /></Link>
-  </div> 
-
-
-  <div className="menu2">
-      
-      <IconContext.Provider value ={{size:'25px'}}>
-        <Link to="feed" className="menu2"> <ImHome />  </Link>
-        <Link to="feed" className="menu2"> <ImProfile/>  </Link>
-        <Link to="feed" className="menu2"> <ImNewspaper/> </Link>
-        <Link to="feed" className="menu2"> <ImBubbles4/>  </Link>
-        <Link to="feed" className="menu2"> <ImPlay/>  </Link>
-      </IconContext.Provider>
-
-      <Link to="feed" >
-      <img className="perfil" alt="" src={require('../../images/logodesign2.jpeg')} />
-      </Link>
-          
-  </div>
-
-
-</header>
-
-  <div className="image2">
-    <img alt="" src={require('../../images/topground.png')} />
-  </div>
-    <div className="publicar">
-      
-      <div className="imageLoading">
-        <IconContext.Provider value ={{size:'25px'}}>
-          <Link to="feed" className="imageLoading1" ><ImCamera className="imageLoading1"/></Link> 
-          <Link to="feed" className="imageLoading2"><ImImages className="imageLoading2"/></Link>
-        </IconContext.Provider>
+      <div className="logopeq2">
+          <Link to="/"><img className="logopeq"
+        alt="" src={require('../../images/logopeq.png')} /></Link>
       </div> 
 
-      <div className="inputImage">
-        <input className="input2" placeholder="Compartilhe conhecimento!"/>
-      <div/>
+
+      <div className="menu2">
+          <IconContext.Provider value ={{size:'25px'}}>
+            <Link to="feed" className="menu2"> <ImHome />  </Link>
+            <Link to="feed" className="menu2"> <ImProfile/>  </Link>
+            <Link to="feed" className="menu2"> <ImNewspaper/> </Link>
+            <Link to="feed" className="menu2"> <ImBubbles4/>  </Link>
+            <Link to="feed" className="menu2"> <ImPlay/>  </Link>
+          </IconContext.Provider>
+
+          <Link to="feed" >
+          <img className="perfil" alt="" src={require('../../images/logodesign2.jpeg')} />
+          </Link>
+      </div>
+
+
+    </header>
+
+    <div className="image2">
+      <img alt="" src={require('../../images/topground.png')} />
     </div>
+
+      <div className="publicar">
+        <div className="imageLoading">
+          <IconContext.Provider value ={{size:'25px'}}>
+            <Link to="feed" className="imageLoading1" ><ImCamera className="imageLoading1"/></Link> 
+            <Link to="feed" className="imageLoading2"><ImImages className="imageLoading2"/></Link>
+          </IconContext.Provider>
+        </div> 
+        <div className="inputImage">
+          <input className="input2" placeholder="Compartilhe conhecimento!"/>
+        <div/>
+      </div>
 
   </div>
   <Layout/>
