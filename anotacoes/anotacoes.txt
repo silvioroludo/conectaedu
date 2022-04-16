@@ -220,6 +220,183 @@ transition-delay
 https://tableless.com.br/transition-e-animation/
 
 ---------
+ONCLICK E HANDLING EVENTS
 
+https://pt-br.reactjs.org/docs/handling-events.html
+
+https://www.youtube.com/watch?v=s2tsCGLzpOM
+
+https://www.youtube.com/watch?v=kt8v7GdW0kI
+
+
+function Form() {
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log('Você clicou em enviar.');
+  }
+
+OU 
+
+const [isOn, setIsOn] = useState(false);
+
+const likesClick = () => {
+setIsOn(!isOn);
+};
+
+
+<button className={`${isOn ? "on" : "off"`}
+                    onClick={likesClick} />
+------------
+
+OPÇÕES:
+
+<select>
+<option>
+</select>
+
+
+-------
+
+LEMBRETE:
+APRENDER GATSBY E MATERIAL UI
+
+------
+
+SUBIR REACT NO GIT PAGES:
+
+https://www.youtube.com/watch?v=c-CLMQk8N9k
+
+npm run build
+
+pack-jason : "homepage":"./" (abaixo de version)
+
+
+--------
+
+
+https://www.youtube.com/watch?v=P9ELDeqNToo
+
+NOMES ALEATÓRIOS JAVASCRIPT:
+
+const handleNameChange = () => {
+const names = ['Bob', 'Kevin', 'Dave'];
+const nome = Math.floor(Math.random() * 3);
+return names[int];
+}
+
+
+NOMES ALEATÓRIOS REACT: (HOOKS) 
+
+import {useState } from 'react';
+const [name, setName] = useState('Dave');
+
+const handleNameChange = () => {
+const names = ['Bob', 'Kevin', 'Dave'];
+const nome = Math.floor(Math.random() * 3);
+setName(names[int])
+}
+
+<div> Hello World {name}</div>
+
+
+CONTAGEM REACT C/ HOOKS:
+
+const [count, setCount] = useState(0); //0 é o estado incial
+
+const handleClick = () => { 
+setCount (count + 1)
+console.log(count)
+};
+
+<div onClick={handleClick}> {count} </div>
+
+
+------------- 
+
+
+
+https://www.youtube.com/watch?v=Fcj6DQT3nVA&t=65s
+
+LISTS AND KEYS:
+
+
+const [items, setItems] = useState([
+
+{ id: 1,
+checked: false,
+item: "Um quilo de batata" },
+
+{ id: 2,
+checked: false,
+item: "Item 2" },
+
+{ id: 2,
+checked: false,
+item: "Item 2" },
+
+]};
+
+
+const handleCheck = (id) = > {
+
+const listItems = items.map ((item) =>
+item.id === id ? {...item, checked: !item.checked} : item);
+
+setItems(listItems);
+
+}
+
+
+
+
+(renderizando):
+
+<main>  
+<ul>
+
+{items.map((item) => (
+
+<li className="item" key={item.id}>
+
+<input type="checkbox"
+onChange={() => handleCheck(item.id)}
+checked={item.checked}/>
+
+<label> {item.item} </label>
+
+
+<BsHeart role="button" tabIndex="0"/>
+
+</li>
+
+
+))}
+
+</ul>
+</main>
+
+
+----------
+
+TRANSFORMAR ICONE EM BOTÃO:
+
+<BsHeart role="button" tabIndex="0"/>
+
+-----------
+
+REMOVER SERRILHADO CSS:
+
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+
+----------
+
+CSS NO ÍCONE:
+
+.nome svg:hover {
+
+}
+
+--------
 
 

@@ -32,9 +32,6 @@ cursor: pointer;
 font-weight: bold;
 }
     
-.newsText {
-/* background-color:#000000; */
-}
 
 .newsLetter {
 color: #e8ddeb;
@@ -44,4 +41,5 @@ font-weight: bold;
 
 .newsLetter:hover {
 font-weight: bold;
+cursor: pointer;
 }

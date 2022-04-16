@@ -24,8 +24,8 @@ const Login = () => {
   </button>
   
   <div className="links">
-    <Link to="linkdireto"> Crie sua conta. </Link>
-    <Link to="linkdireto">Esqueceu a senha? Clique aqui. </Link>
+    <Link to="feed" className="createAccount"> Crie sua conta. </Link>
+    <Link to="feed" className="forgetPassword">Esqueceu a senha? Clique aqui. </Link>
   </div>
   
 </div>

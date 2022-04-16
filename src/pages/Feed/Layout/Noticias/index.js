@@ -1,7 +1,5 @@
 import React from "react";
 import "./Noticias.css"
-import { IconContext } from 'react-icons'
-import { FiMoreHorizontal } from 'react-icons/fi'
 
 
 function Noticias () {
@@ -24,6 +22,7 @@ return (
             </div>
             
 </div>
+
 </>
 
 );

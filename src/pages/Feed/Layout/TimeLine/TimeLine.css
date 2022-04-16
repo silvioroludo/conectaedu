@@ -55,14 +55,91 @@ flex-direction: row;
 justify-content: space-between;
 color: #222;
 padding: 5px 5px 20px 20px;
+margin-right: 10px;
 }
 
 .engagementIcons1 {
 display: flex;
 flex-direction: row;
 gap: 16px;
+
 }
 
-.engagementIcons2 {
+.engagementIcons1:hover {
+color: #84239c;
+}
 
-};
+
+.engagementIcons2:hover {
+color: #84239c;
+}
+
+.likes {
+color:#222;
+font-size: 15px;
+font-weight: 600;
+text-align: left;
+margin: -40px 0px 0px 142px;
+}
+
+.likes:hover {
+color:#84239c;
+}
+
+.legendContainer {
+margin: 10px 15px 3px;
+text-align: left;
+}
+
+.legendContainer span {
+margin-right: 10px;
+}
+
+.postTime {
+font-size: 11px;
+color:#555;
+margin: 10px 15px 3px;
+text-align: left;
+}
+
+.coment {
+border: 1px solid #84239c;
+border-radius: 10px;;
+display: flex;
+padding: 5px 20px 5px 20px;
+justify-content: space-between;
+gap: 40px;
+align-items: center;
+text-align: left;
+margin: 10px 15px 3px;
+}
+
+.emojiComent {
+color: #222;
+}
+
+.emojiComent:hover {
+color: #84239c;
+}
+
+.inputComent {
+outline: none;
+border: none;
+text-decoration: none;
+padding: 5px 30px 5px 5px;
+}
+
+.publish {
+outline: none;
+border: none;
+text-decoration: none;
+color: #222;
+font-weight: bold;
+cursor: pointer;
+font-size: 15px;
+}
+
+.publish:hover {
+color: #84239c;
+
+}
