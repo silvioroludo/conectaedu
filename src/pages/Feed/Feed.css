@@ -1,10 +1,17 @@
-
+/* 
 .container2 {
 background: linear-gradient(#84239c, #f86dec);
 border: none;
 height: 198px;
 width: 100%;
 text-decoration-color: none;
+} */
+
+.image2 {
+background: linear-gradient(#84239c, #f86dec);
+height: 198px;
+width: 100vw;
+margin-top: 0;
 }
 
 textarea:focus, input:focus {
@@ -16,12 +23,10 @@ position: fixed;
 top: 0;
 display: flex;
 align-items: center;
-margin-top:-20;
 height:50px;
 flex-direction: row;
 justify-content: space-between;
 width: 100%;
-background:transparent;
 }
 
 .publicar {
@@ -55,24 +60,24 @@ background-color: #dd9cca;
 
 .inputImage {
 margin-right: 70px;
-  }  
+}  
 
 .imageLoading {
-  color:#fff;
-  display: flex;
-  gap: 15px;
-  margin-top: 10px;
-  opacity: 70%;
-  }
+color:#fff;
+display: flex;
+gap: 15px;
+margin-top: 10px;
+opacity: 70%;
+}
 
-  .imageLoading1, .imageLoading2 {
-    color:#fff;
-    }
+.imageLoading1, .imageLoading2 {
+color:#fff;
+}
 
 
 .imageLoading:hover {
-  opacity: 100%;
- }
+opacity: 100%;
+}
 
 
 .input2::placeholder {
@@ -111,8 +116,6 @@ opacity: 80%;
 }
 
 .perfil:hover {
-/* width: 36px;
-height: 36px; */
 opacity: 100%;
 }
 
@@ -126,11 +129,3 @@ width: 100vw;
 height: 100vw;
 }
 
-.image2 {
-background: linear-gradient(#84239c, transparent);
-background: linear-gradient(#84239c, #f86dec);
-height: 198px;
-width: 100vw;
-margin-top: 0;
-};
-    

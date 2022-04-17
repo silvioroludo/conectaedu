@@ -1,0 +1,132 @@
+
+.container2 {
+    background: linear-gradient(#84239c, #f86dec);
+    border: none;
+    height: 198px;
+    width: 100%;
+    text-decoration-color: none;
+    }
+    
+    .image2 {
+    background: linear-gradient(#84239c, #f86dec);
+    height: 198px;
+    width: 100vw;
+    margin-top: 0;
+    }
+    
+    textarea:focus, input:focus {
+    outline: none;
+    }
+    
+    .menutopo {
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    height:50px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    }
+    
+    .publicar {
+    display: flex;
+    flex-direction: row;
+    margin-top: -80px;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 35px 5px 5px;
+    width: 100vw;
+    border-radius: 30px;
+    opacity: 100%;
+    gap: 20px;
+    }
+    
+    .input2:hover {
+    opacity: 100%;
+    box-shadow: 1px 1px 4px #fdeaff;
+    }
+    
+    .input2 {
+    box-shadow: 0.5px 0.5px 3px #fdeaff;
+    border:none;
+    padding: 15px 80px;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 80%;
+    font-weight: 400;
+    background-color: #dd9cca;
+    }
+    
+    .inputImage {
+    margin-right: 70px;
+    }  
+    
+    .imageLoading {
+    color:#fff;
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    opacity: 70%;
+    }
+    
+    .imageLoading1, .imageLoading2 {
+    color:#fff;
+    }
+    
+    
+    .imageLoading:hover {
+    opacity: 100%;
+    }
+    
+    
+    .input2::placeholder {
+    color: white;
+    } 
+    
+    .logopeq {
+    height: 30px;
+    width: 100%;
+    margin-left: 30px;
+    object-fit: cover;
+    }
+    
+    .logopeq:hover {
+    height: 31px;
+    }
+    
+    .menutopo {
+    background-color: #84239c;
+    }
+    
+    .menu2 {
+    flex-direction: row;
+    color: rgb(253, 183, 230);
+    font-size: 14px;
+    align-items: center;
+    margin-right: 20px;
+    height: 90%;
+    }
+    
+    .perfil {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    opacity: 80%;
+    }
+    
+    .perfil:hover {
+    opacity: 100%;
+    }
+    
+    .menu2:hover {
+    color:rgb(248, 236, 244);
+    }
+    
+    .timeline2 {
+    background-color: rgb(248, 236, 244);
+    width: 100vw;
+    height: 100vw;
+    }
+    
+    

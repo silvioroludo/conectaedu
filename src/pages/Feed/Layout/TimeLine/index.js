@@ -84,7 +84,7 @@ return (
                 <p>  
                 <span className="userName"> User Name  </span>
                 Qui et occaecat anim aute elit officia id proident. Est duis qui ea occaecat est ut ex tempor voluptate ad dolor aliquip nulla duis. Elit in mollit aute eu incididunt.
-Culpa id id in qui commodo sit aute. Ipsum ipsum sunt occaecat incididunt non cupidatat laborum eu voluptate duis ea laborum duis. Adipisicing reprehenderit duis velit sunt excepteur. Tempor in laborum laborum Lorem proident aliquip incididunt anim officia. Ea qui dolor voluptate qui proident quis nisi. Labore aliqua ea id qui eiusmod. Cupidatat sunt occaecat laborum elit ullamco.
+Culpa id id in qui commodo sit aute. Ipsum ipsum sunt occaecat incididunt non cupidatat 
                 </p>
             </div>
 
