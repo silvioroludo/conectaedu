@@ -17,11 +17,11 @@ const Login = () => {
     <input className="input" placeholder="Senha"/>
   </div>
   
-  <button className="enviar">
-    <Link to="feed" className="enviar2">
-    <GoKey/> Enviar 
-    </Link>
-  </button>
+  <Link to="feed" className="enviar2">
+    <button className="enviar">
+     <GoKey/> Enviar 
+   </button>
+  </Link>
   
   <div className="links">
     <Link to="feed" className="createAccount"> Crie sua conta. </Link>

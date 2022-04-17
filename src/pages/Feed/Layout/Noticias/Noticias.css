@@ -2,7 +2,7 @@
 position: fixed;
 background: rgb(255, 255, 255);
 width: 250px;
-height: 700px;
+height: 650px;
 border-radius: 20px;
 border: 1px solid #e8ddeb;
 padding-top: 10px;
@@ -19,27 +19,44 @@ object-fit: cover;
 border-radius: 20px;
 height: 150px;
 background-color: black;
+}
+
+.newsData{
 opacity: 70%;
 }
 
-.newsPicture2 {
-opacity: 70%;
-}
-
-.newsPicture:hover {
+.newsData:hover {
 opacity: 100%;
 cursor: pointer;
 font-weight: bold;
+font-weight: bold;
+cursor: pointer;
 }
     
 
 .newsLetter {
-color: #e8ddeb;
+color: #ffffff;
 margin-top: -25px;
 font-weight: bold;
 }
 
-.newsLetter:hover {
+.footerData {
+display: flex;
+margin: 655px 15px 3px;
+text-align: center;
+position: fixed;
+opacity: 60%;
+}
+
+.footerData:hover {
+opacity: 100%; 
+}
+
+
+.footerDataText {
+display: flex;
+font-size: 11px;
 font-weight: bold;
-cursor: pointer;
+color:#555;
+text-align: center;
 }

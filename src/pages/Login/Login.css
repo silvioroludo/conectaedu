@@ -51,13 +51,13 @@ border-radius: 10px;
 margin-top: 10px;
 border: none;
 background-color: #fa96f2;
-color: #994792;
-justify-content: space-between;;
+justify-content: space-between;
 }
 
-.enviar2:hover {
-color:rgb(248, 236, 244);
+.enviar:hover {
+background-color: #fcbaf6;
 }
+
 
 .links {
 text-decoration: none;

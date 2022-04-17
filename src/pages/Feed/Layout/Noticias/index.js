@@ -9,19 +9,26 @@ return (
 
     <h1> Notícias </h1>
 
-        <div className="newsData">
-            <div className="newsPicture">
-                <img className="newsPicture" 
-            alt="" src={require('../../../../images/logodesign2.jpeg')} />
-            </div>
-        </div>
+    <div className="newsData">
+        <div className="newsPicture">
+         <img className="newsPicture" 
+            alt="" src={require('../../../../images/news.jpg')} />
+         </div>
+    </div>
 
-        <div className="newsText">
-                <p className="newsLetter"> Visita do Secretário
-             da Cultura</p>
-            </div>
+    <div className="newsText">
+         <span className="newsLetter">
+            Visita do Secretário da Cultura
+        </span>
+    </div>
+
+
             
 </div>
+
+    <div className="footerData">
+       <span className="footerDataText"> Desenvolvido por: © FERREIRA DEV 2022</span>
+    </div>
 
 </>
 

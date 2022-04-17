@@ -12,12 +12,12 @@ function Layout () {
 <div className="grid-container" >
 
     <div className="first-column"  /* style={{gridArea: "firstColumn"}} */ >
-    {<TimeLine/>}
+        {<TimeLine/>}
      </div>
 
-     <div className="second-column"  /* style={{gridArea: "secondColumn"}} */ >
-     {<Noticias/>}
-     </div> 
+    <div className="second-column"  /* style={{gridArea: "secondColumn"}} */ >
+        {<Noticias/>}
+    </div> 
 
 </div>
 

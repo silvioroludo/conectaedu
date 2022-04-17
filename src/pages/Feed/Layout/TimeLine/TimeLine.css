@@ -46,7 +46,7 @@ display: flex;
 width: 100%;
 object-fit: cover;
 border-radius: 20px;
-height: 800px;
+height: 600px;
 }
 
 .containerIcons {
@@ -65,12 +65,19 @@ gap: 16px;
 
 }
 
-.engagementIcons1:hover {
+.engagementIcons2:hover {
 color: #84239c;
 }
 
+.icon1:hover {
+color: #84239c;
+}
 
-.engagementIcons2:hover {
+.icon2:hover {
+color: #84239c;
+}
+
+.icon3:hover {
 color: #84239c;
 }
 

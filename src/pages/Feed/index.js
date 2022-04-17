@@ -35,7 +35,7 @@ const Feed = () => {
           </IconContext.Provider>
 
           <Link to="feed" >
-          <img className="perfil" alt="" src={require('../../images/logodesign2.jpeg')} />
+          <img className="perfil" alt="" src={require('../../images/profile.jpg')} />
           </Link>
       </div>
 
