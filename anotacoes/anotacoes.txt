@@ -399,4 +399,24 @@ CSS NO ÍCONE:
 
 --------
 
+CRIAÇÃO DE POPUPS:
+
+https://www.youtube.com/watch?v=i8fAO_zyFAM
+
+
+
+-------
+
+ATALHOS:
+
+Criar pasta com arquivo dentro: nomedapasta/nomedoarquivo 
+
+Criar componente react: rcfce
+
+Usar mesma classe: classname"nomedaclasse-inner"
+
+
+--------
+
+SISTEMA DE UPLOADS DE ARQUIVOS:
 

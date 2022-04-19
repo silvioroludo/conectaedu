@@ -9,6 +9,7 @@ text-decoration: none;
 }
 
 html, body, #root {
+flex-grow: 1;
 max-width: 100vw;
 max-height: 100vh;
 

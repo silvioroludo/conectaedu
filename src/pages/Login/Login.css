@@ -15,9 +15,9 @@ flex-direction: column;
 }
     
 .logo {
-height: 80vh;
+height: 60vh;
+margin-bottom: 150px;
 }
-    
     
 .input {
 display: flex;

@@ -1,39 +1,53 @@
-import HeaderDefault from '../HeaderSite'
-import './News.css'
-import React from "react";
+import React from 'react';
+import './Post.css'
 import { FiMoreHorizontal, FiSend } from "react-icons/fi"
 import { BsHeart } from 'react-icons/bs'
 import { BsChat } from 'react-icons/bs'
 import { BsBookmark } from 'react-icons/bs'
 import { IconContext } from 'react-icons'
 import { BsEmojiSmile } from 'react-icons/bs'
+import { FaCameraRetro } from 'react-icons/fa'
+import  CameraPopUp  from '../../../../ImagePopup'
+import { useState } from "react";
 
 
-function News () {
-return (
-<>
-<HeaderDefault/>
+function Post () {
 
-<div className="TimeLine">
-    
+    const [buttonPopUp, setButtonPopUp] = useState (false);
+
+    return (
     <div className="containerPost">
-    <IconContext.Provider value ={{size:'25px'}}>
+
+        <CameraPopUp className="cameraPopUpPost" trigger={buttonPopUp}> 
+                <h1>Arraste uma imagem</h1>
+                <button className='selectComputer'> Selecionar do computador</button>
+        </CameraPopUp>
+
+
         <div className="userData">
+
+            <IconContext.Provider value={{size:'25px'} }>
             <div className="infosPost">
                 <img className="profilePicture" 
-                alt="" src={require('../../images/profile.jpg')} />
+                alt="" src={require('../../../../../images/profile.jpg')} />
                 <p className="userName"> User Name</p>
+                <FaCameraRetro onClick={() => setButtonPopUp(true)} className="cameraPopUp"/> 
             </div>
+            </IconContext.Provider>
+
+            <IconContext.Provider value ={{size:'25px'}}>
             <div className="postConfig">
                 <FiMoreHorizontal/>
             </div>
+            </IconContext.Provider>
         </div>
-        </IconContext.Provider>
+        
+  
 
         <div className="postPicture">
 
         <img className="postPicture" 
-        alt="" src={require('../../images/post.jpg')} />
+        alt="" src={require('../../../../../images/post.jpg')} />
         
         </div>
 
@@ -91,11 +105,10 @@ Culpa id id in qui commodo sit aute. Ipsum ipsum sunt occaecat incididunt non cu
         </IconContext.Provider>
         </footer>    
     </div>
-</div>
 
-</>
 )
-}
 
-export default News;
 
+};
+
+export default Post;

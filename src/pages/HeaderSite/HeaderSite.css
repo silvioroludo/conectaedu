@@ -29,7 +29,7 @@
     width: 100%;
     }
     
-    .publicar {
+/*     .publicar {
     display: flex;
     flex-direction: row;
     margin-top: -80px;
@@ -57,7 +57,7 @@
     font-weight: 400;
     background-color: #dd9cca;
     }
-    
+ 
     .inputImage {
     margin-right: 70px;
     }  
@@ -83,7 +83,7 @@
     .input2::placeholder {
     color: white;
     } 
-    
+     */
     .logopeq {
     height: 30px;
     width: 100%;

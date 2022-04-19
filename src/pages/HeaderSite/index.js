@@ -8,10 +8,10 @@ import { ImBubbles4 } from "react-icons/im";
 import { ImPlay } from "react-icons/im";
 import { Link } from "react-router-dom";
 import { IconContext } from "react-icons";
-import { ImImages } from "react-icons/im";
+/* import { ImImages } from "react-icons/im";
 import { ImCamera } from "react-icons/im";
 
-
+ */
 
 function HeaderDefault () {
 return (
@@ -44,7 +44,7 @@ return (
   <img alt="" src={require('../../images/topground.png')} />
 </div>
 
-<div className="publicar">
+{/* <div className="publicar">
 
   <div className="imageLoading">
     <IconContext.Provider value ={{size:'25px'}}>
@@ -57,7 +57,7 @@ return (
       <input className="input2" placeholder="Compartilhe conhecimento!"/> 
   </div>
 
-</div>
+</div> */}
 
 </div>
 );

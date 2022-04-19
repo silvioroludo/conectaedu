@@ -7,7 +7,8 @@ import Noticias from "./Noticias"
 function Layout () {
 
     return (
-<>
+
+    
 
 <div className="grid-container" >
 
@@ -21,7 +22,7 @@ function Layout () {
 
 </div>
 
-</>
+
     );
 
 };
