@@ -87,3 +87,11 @@ padding: 5px 30px 5px 30px;
 
 
  */
+
+ .loadedImage {
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    object-fit: cover;
+    padding-top: 20px;
+ }

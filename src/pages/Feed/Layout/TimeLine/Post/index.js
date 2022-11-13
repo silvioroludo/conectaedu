@@ -11,7 +11,10 @@ import  CameraPopUp  from '../../../../ImagePopup'
 import { useState } from "react";
 
 
-function Post () {
+function Post (/* props */) {
+
+
+
 
     const [buttonPopUp, setButtonPopUp] = useState (false);
 
@@ -49,6 +52,7 @@ function Post () {
         <img className="postPicture" 
         alt="" src={require('../../../../../images/post.jpg')} />
         
+      {/*   <div className="loadedImage">{props.images}</div> */}
         </div>
 
         <footer>

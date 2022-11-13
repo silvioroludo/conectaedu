@@ -420,3 +420,57 @@ Usar mesma classe: classname"nomedaclasse-inner"
 
 SISTEMA DE UPLOADS DE ARQUIVOS:
 
+drag and drop:
+https://react-dropzone.js.org/
+
+------
+
+STYLED COMPONENTS E CSS GLOBAL:
+
+https://www.youtube.com/watch?v=G5UZmvkLWSQ
+
+
+--------
+
+MELHORAR TEXTO:
+
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+
+-------
+
+BORDA DIFERENTE:
+
+border: 1px dashed #ddd;
+
+-------
+
+ANIMAÇÃO:
+
+transition: heigh 0.2s ease;
+
+
+--------
+
+LOADING / BARRA DE PROGRESSO:
+
+CIRCULARPROGRESSBAR
+
+
+--------
+
+
+APLICAR CSS NA SEGUNDA LI DE UMA LISTA:
+
+& + li {
+  margin:0px;
+}
+
+
+
+---------------
+
+ALINHAMENTO NO GRID:
+
+display: grid;
+place-items: center;

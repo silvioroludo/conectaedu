@@ -10,7 +10,7 @@ function TimeLine () {
 
 return (
 <>
-<div className="222">
+<div className="">
     <Post/>
     <Post/>
     <Post/>
