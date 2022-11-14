@@ -473,4 +473,4 @@ APLICAR CSS NA SEGUNDA LI DE UMA LISTA:
 ALINHAMENTO NO GRID:
 
 display: grid;
-place-items: center;
+place-items: center;;;
