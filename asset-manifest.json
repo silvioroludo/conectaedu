@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.b5d4f8a3.css",
-    "main.js": "/static/js/main.c60327d2.js",
-    "static/media/news.jpg": "/static/media/news.9e7d7ab956f51b5c314c.jpg",
-    "static/media/post.jpg": "/static/media/post.3989b93e6f03a26ef89b.jpg",
-    "static/media/profile.jpg": "/static/media/profile.f26a2f6277b5810ac066.jpg",
-    "static/media/logodesign.png": "/static/media/logodesign.21a6794b9f9ff93093df.png",
-    "static/media/topground.png": "/static/media/topground.1b5a1249a28ab7ddd694.png",
-    "static/media/logopeq.png": "/static/media/logopeq.2b1d35490ab8e33eaae6.png",
-    "index.html": "/index.html",
-    "main.b5d4f8a3.css.map": "/static/css/main.b5d4f8a3.css.map",
-    "main.c60327d2.js.map": "/static/js/main.c60327d2.js.map"
+    "main.css": "/Conecta-EDU/static/css/main.b5d4f8a3.css",
+    "main.js": "/Conecta-EDU/static/js/main.dd948815.js",
+    "static/media/news.jpg": "/Conecta-EDU/static/media/news.9e7d7ab956f51b5c314c.jpg",
+    "static/media/post.jpg": "/Conecta-EDU/static/media/post.3989b93e6f03a26ef89b.jpg",
+    "static/media/profile.jpg": "/Conecta-EDU/static/media/profile.f26a2f6277b5810ac066.jpg",
+    "static/media/logodesign.png": "/Conecta-EDU/static/media/logodesign.21a6794b9f9ff93093df.png",
+    "static/media/topground.png": "/Conecta-EDU/static/media/topground.1b5a1249a28ab7ddd694.png",
+    "static/media/logopeq.png": "/Conecta-EDU/static/media/logopeq.2b1d35490ab8e33eaae6.png",
+    "index.html": "/Conecta-EDU/index.html",
+    "main.b5d4f8a3.css.map": "/Conecta-EDU/static/css/main.b5d4f8a3.css.map",
+    "main.dd948815.js.map": "/Conecta-EDU/static/js/main.dd948815.js.map"
   },
   "entrypoints": [
     "static/css/main.b5d4f8a3.css",
-    "static/js/main.c60327d2.js"
+    "static/js/main.dd948815.js"
   ]
 }
